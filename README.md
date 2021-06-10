@@ -38,4 +38,24 @@ When you ask for uploading your code we need your written permission and make su
 
 If you want to help us to maintain and improve software we host here please read the contributing guide you can find [here](./CONTRIBUTING.md)
 
+### How to prepare my code to be uploaded here
+
+Simple...
+
+If you want to use git yourself: 
+- we create a repository for you like this one
+- you git clone it on your computer
+- you cd into the directory created into your computer and create your ne branch called yourname-initial-commit (no sapces) using the command ```git branch jhon-initial-commit```
+- you add your sources in the src directory
+- you edit the README.md (with any text editor) and add info about your code (and how to build it if it needs compilation and which compilers it needs)
+- When you're done you add your changes using ```git add .```
+- Then you commit then using ```git commit -m "My initial commit"```
+- Then you push them in the repo using ```git push -u origin jhon-initial-commit```
+- When you are sure everything is in there you open a Pull Request using github.com (if you are not familiar with the git command) and we'll review your changes and add your code to the main repo
+
+If you want us to upload your source intead:
+- You zip your sources into an archive
+- You add your distribution license and a README.md file with info about your code and how to build it if it needs to be compiled
+- You send your zip to us
+
 Thanks for supporting RISC OS!
