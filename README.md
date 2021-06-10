@@ -1,6 +1,8 @@
 # Example Repository
 
-This repository is just an example with instructions on how you can push your source code/projects and ideas in this community.
+This repository is just an example with instructions on how you can push your source code/projects and ideas in this community. This repository shows the typical structure of a repo as we use them, so you can have a clear idea of "where" is "what".
+
+Normally your source code will always be hosted in the src directory.
 
 ## Before you start
 Before you start please make sure you have read our code of conduct and you understand it and agree with it. By joining this community and using this github organisation you agree with the code of conduct.
@@ -25,7 +27,9 @@ The preferred way is the first option, but if you do not intend to maintain your
 
 You can either contact me directly using this link [here](https://paolozaino.wordpress.com/contact/)
 OR
-You can request it by posting a request in the ROOL Forum in either the General Forum or the Aldershot
+You can request it by posting a request in the ROOL Forum in either the General Forum or the Aldershot.
+
+When you ask for uploading your code we need your written permission and make sure you release your code with a ditribution license that is compatible with sharing the sources. You maintain the copyright (if you intend to do so), but we need a distribution license that allow us to share your sources. If youa re not sure which one is best for you we can help :)
 
 ### How to contribute to existsing projects
 
