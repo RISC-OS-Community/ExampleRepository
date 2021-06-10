@@ -23,6 +23,9 @@ The preferred way is the first option, but if you do not intend to maintain your
 - [It's a good practice to protect your accoutn by adding 2 factors authentication](https://docs.github.com/en/github/authenticating-to-github/configuring-two-factor-authentication)
 - [Join RISC OS Community, by filling up this form and give us your github account name and what type of contribution you would like to purse](https://paolozaino.wordpress.com/contact/)
 
+#### What if I do not know how to use github?
+We have got you covered :) Here there is a totally free Video Course splitted in small and very simple lessons you can watch from any device, [click here](https://app.egghead.io/playlists/how-to-contribute-to-an-open-source-project-on-github) for more info, scroll down and enjoy the course!
+
 ### How to ask to upload your code on here without joining this community
 
 You can either contact me directly using this link [here](https://paolozaino.wordpress.com/contact/)
