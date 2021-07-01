@@ -43,11 +43,6 @@ jobs:
     continue-on-error: true
 
     steps:
-      # Configure git globals
-      - name: Configure git globals
-         run: |
-              git config --global init.defaultBranch ${MAIN_BRANCH}
-
       # Clone the template repository
       - name: Check out template repository
         uses: actions/checkout@v2
@@ -55,6 +50,11 @@ jobs:
           repository: ${{ env.REPO_TEMPLATE }}
           token: ${{ github.token }}
           path: ${{ env.REPO_TEMPLATE }}
+
+      # Configure git globals
+      #- name: Configure git globals
+      #   run: |
+      #        git config --global init.defaultBranch ${MAIN_BRANCH}
 
       # Clone the target repository. Check out a branch
       - name: Check out ${{ github.repository }}
