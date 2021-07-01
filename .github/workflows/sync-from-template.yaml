@@ -64,6 +64,7 @@ jobs:
           git -C "${THIS_REPO}" checkout -B "${HEAD_BRANCH}" \
             "remotes/origin/${HEAD_BRANCH}" || \
           git -C "${THIS_REPO}" checkout -b "${HEAD_BRANCH}"
+
       # Copy files from the template onto the target clone
       - name: Copy template contents
         run: |
@@ -84,6 +85,7 @@ jobs:
             cp "${_src}" "${_dst}"
           done
           git -C "${THIS_REPO}" diff
+
       # Commit changes, if there are any
       - name: Commit changes, if any
         run: |
@@ -93,6 +95,7 @@ jobs:
           git -C ${THIS_REPO} add .
           git -C ${THIS_REPO} commit \
             -m "Sync from template@${{ github.sha }}"
+
       # Push the branch to the target repository
       - name: Push topic branch
         run: git -C ${THIS_REPO} push -u origin "${HEAD_BRANCH}"
