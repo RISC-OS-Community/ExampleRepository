@@ -1,3 +1,5 @@
+![in sync with template](https://github.com/RISC-OS-Community/ExampleRepository/actions/workflows/sync-from-template.yaml/badge.svg)
+
 # Example Repository
 
 This repository is just an example with instructions on how you can push your source code/projects and ideas in this community. This repository shows the typical structure of a repo as we use them, so you can have a clear idea of "where" is "what".
