@@ -20,7 +20,7 @@ on:
   # Run when this file changes
   push:
     paths:
-      - .github/workflows/sync-from-template.yml
+      - .github/workflows/sync-from-template.yaml
 
   # Run when manually triggered
   workflow_dispatch:
