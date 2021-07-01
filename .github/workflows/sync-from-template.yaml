@@ -45,7 +45,8 @@ jobs:
     steps:
       # Configure git globals
       - name: Configure git globals
-         run: git config --global init.defaultBranch ${MAIN_BRANCH}
+         run: |
+              git config --global init.defaultBranch ${MAIN_BRANCH}
 
       # Clone the template repository
       - name: Check out template repository
