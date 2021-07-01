@@ -2,7 +2,11 @@
 
 This repository is just an example with instructions on how you can push your source code/projects and ideas in this community. This repository shows the typical structure of a repo as we use them, so you can have a clear idea of "where" is "what".
 
-Normally your source code will always be hosted in the src directory.
+Normally:
+* Your source code will always be hosted in the `src` directory.
+* Your documentation will always be hosted in the `doc` directory.
+* Your code tests will always be hosted in the `tests` directory.
+* If your application requires special resources, they should be placed in a `Resources` subdirectory within the `src` one
 
 ## Before you start
 Before you start please make sure you have read our code of conduct and you understand it and agree with it. By joining this community and using this github organisation you agree with the code of conduct.
