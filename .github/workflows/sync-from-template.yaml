@@ -50,6 +50,7 @@ jobs:
           repository: ${{ env.REPO_TEMPLATE }}
           token: ${{ github.token }}
           path: ${{ env.REPO_TEMPLATE }}
+          ref: main
 
       # Configure git globals
       #- name: Configure git globals
