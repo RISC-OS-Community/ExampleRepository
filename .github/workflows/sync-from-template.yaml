@@ -27,7 +27,7 @@ on:
 
 env:
   MAIN_BRANCH: main
-  BASE_BRANCH: main
+  BASE_BRANCH: develop
   HEAD_BRANCH: chore/sync-from-template
   GIT_AUTHOR_NAME: ${{ github.repository_owner }}
   GIT_AUTHOR_EMAIL: ${{ github.repository_owner }}@users.noreply.github.com
@@ -54,8 +54,8 @@ jobs:
 
       # Configure git globals
       #- name: Configure git globals
-      #   run: |
-      #        git config --global init.defaultBranch ${MAIN_BRANCH}
+      #  run: |
+      #       git config --global init.defaultBranch ${MAIN_BRANCH}
 
       # Clone the target repository. Check out a branch
       - name: Check out ${{ github.repository }}
@@ -64,6 +64,7 @@ jobs:
           repository: ${{ github.repository }}
           token: ${{ github.token }}
           path: ${{ github.repository }}
+          ref: main
       - name: Create branch in ${{ env.THIS_REPO }}
         run: |
           git -C "${THIS_REPO}" fetch origin "${HEAD_BRANCH}" || true
