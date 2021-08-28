@@ -106,6 +106,14 @@ In general you'd want to:
 * Submit your branch for review when it is done, do this by making a Pull Request and requesting a review from the Code Reviews Team
   - Make sure you've tested your changes before submitting a Pull Request
 
+# Coding Style for C Developers
+
+One of the best an dmost complete C Coding style guide is the Linux Kernel C Coding Style Guide. So, for all general C related coding you should follow such set of rules (learning it can also help you a lot in your Software Engineering career), here is the Linux Coding Style guide for you: [Linux Coding Style Guide](https://www.kernel.org/doc/html/v5.10/process/coding-style.html).
+
+Given that RISC OS is not linux and has its own ToolBox you shall consider all colliding rules to be superseeded by the corresponding rule in the RISC OS Style Guide, here is a link to how to obtain it: [RISC OS Style Guide](https://www.riscosopen.org/wiki/documentation/show/Style%20Guide)
+
+Also please have a look at the Programming Conventions hosted on RISCOS.info, [click here to read them](http://www.riscos.info/index.php/Programming_Conventions)
+
 # Extra info for BBC BASIC developers
 
 ROOL has a fantastic repo with tools that can be used to make life easier for BBC BASIC developers when using git:
