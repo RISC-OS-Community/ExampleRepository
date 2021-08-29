@@ -114,6 +114,10 @@ Given that RISC OS is not linux and has its own ToolBox you shall consider all c
 
 Also please have a look at the Programming Conventions hosted on RISCOS.info, [click here to read them](http://www.riscos.info/index.php/Programming_Conventions)
 
+ROOL DDE Compiler support C89 and C99 (and they started to add support for C11), so, if you need, [here](http://www.sourceformat.com/pdf/c-standard-international.pdf) you can find a good C99 standard guide (precisely the Committee Draft — May 6, 2005 ISO/IEC 9899:TC2) you can use as reference while coding.
+
+If instead you prefer to use GCC, RISC OS has ative support for GCC 4 and the GCCSDK Project (building C code for RISC OS using GCC on Linux) support GCC 4, GCC 8 and they started to add GCC 10. You can fin dmor einfo on about this on [RISCOS.info](https://www.riscos.info/index.php/Cross-compiling_software_with_GCCSDK)
+
 # Extra info for BBC BASIC developers
 
 ROOL has a fantastic repo with tools that can be used to make life easier for BBC BASIC developers when using git:
