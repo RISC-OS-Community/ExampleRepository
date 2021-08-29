@@ -26,7 +26,7 @@ The preferred way is the first option, but if you do not intend to maintain your
 
 - [Create a github account](https://github.com/join)
 - [Add an RSA key to your github account](https://docs.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account)
-- [It's a good practice to protect your accoutn by adding 2 factors authentication](https://docs.github.com/en/github/authenticating-to-github/configuring-two-factor-authentication)
+- [It's a good practice to protect your account by adding 2 factors authentication](https://docs.github.com/en/github/authenticating-to-github/configuring-two-factor-authentication)
 - [Join RISC OS Community, by filling up this form and give us your github account name and what type of contribution you would like to purse](https://paolozaino.wordpress.com/contact/)
 
 #### What if I do not know how to use github?
@@ -42,7 +42,7 @@ When you ask for uploading your code we need your written permission and make su
 
 ### How to contribute to existing projects
 
-If you want to help us to maintain and improve software we host here please read the contributing guide you can find [here](./CONTRIBUTING.md)
+If you want to help us to maintain and improve software we host here, please read the contributing guide you can find [here](./CONTRIBUTING.md) it contains everything you need to know to help including coding style, procedures, information and tools you may need.
 
 ### How to prepare my code to be uploaded here
 
