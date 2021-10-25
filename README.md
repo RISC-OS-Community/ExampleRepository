@@ -22,6 +22,8 @@ There are two ways to create your repo and upload your code here:
 
 The preferred way is the first option, but if you do not intend to maintain your own code in the future (for example you're no longer interested in coding on RISC OS etc.) then the second option is probably the best for you.
 
+<b>Please note:</b> For old code (and only for old code), we do not require to strictly adhere to the Coding Guide Lines, so it's ok to create a repo for old code that doesn't stick to the required Coding Style Guide Lines. We can achieve the compliance with the codign guide lines over time by improving the original code :)
+
 ### How to join this community
 
 - [Create a github account](https://github.com/join)
