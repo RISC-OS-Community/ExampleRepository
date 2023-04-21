@@ -125,6 +125,8 @@ In general you'd want to:
 
 One of the best and most complete C Coding style guide is the Linux Kernel C Coding Style Guide. So, for all general C related coding you should follow such set of rules (learning it can also help you a lot in your Software Engineering career), here is the Linux Coding Style guide for you: [Linux Coding Style Guide](https://www.kernel.org/doc/html/v5.10/process/coding-style.html).
 
+If you are not an experienced C developer and need an easier to read coding manual before getting into the Linux coding style, we recommend to get copy of "The Elements Of C Programming Style" by Jay Ranade and Alan Nash, it's a very good introduction to good C coding style practices and goes from zero to competent C developer on the matter of coding style elements (it doesn't teach you C!).
+
 Given that RISC OS is not linux and has its own ToolBox you shall consider all colliding rules to be superseded by the corresponding rule in the RISC OS Style Guide, here is a link to how to obtain it: [RISC OS Style Guide](https://www.riscosopen.org/wiki/documentation/show/Style%20Guide)
 
 Also please have a look at the Programming Conventions hosted on RISCOS.info, [click here to read them](http://www.riscos.info/index.php/Programming_Conventions)
@@ -146,6 +148,12 @@ Also ROOL has a free BBC BASIC Reference Manual PDF updated and available [here]
 If you fear having to learn git or if you just want to help us with reviewing documentation etc. you can also use GitHub via the GitHub application, available for both the Apple iPad and iPhone and Android Tablets and Phones.
 The Android/Apple GitHub application makes it very easy to interact with us and provide your contribution without the need to learn git!
 Have a look in your device' on-line store for the GitHub application published by GitHub.
+
+# We now have a repo dedicated to Everything Coding on RISC OS
+
+The repo is maintained and updated to collect resources to help everyone (from absolute beginners till experienced developers) to learn and/or improve codign skills on RISC OS.
+
+You can find the repo [here](https://github.com/RISC-OS-Community/CodingOnRISC-OS)
 
 So no excuses! ;-)
 
